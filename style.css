@@ -132,6 +132,20 @@
     background-color: lavender;
     border-radius: 15px;
    /* box-shadow: 5px 8px rgba(0,0,0,0.5); */
+
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-auto-columns: minmax(30px, auto);
+}
+
+.cont-archer-top {
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3); 
+    background: linear-gradient(to right, #EF629F, #EECDA3); 
+
 }
 
 .card-container-wizard {
