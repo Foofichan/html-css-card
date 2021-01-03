@@ -1,9 +1,17 @@
-.card {
-    height: 900px;
-    /* background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed; */
-    /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg); */
+
+html {
+    background-image: url(/html-css-card/files/coc-background.jpg);
+    /*
+    background: #304352;  
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  
+    background: linear-gradient(to right, #d7d2cc, #304352); 
+    */
     background-size: cover;
     background-position: center;
+}
+
+.card {
+    height: 800px;
     font: 15px/20px "Lato", Arial, sans-serif;
     color: #9E9E9E;
 }
@@ -32,6 +40,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: white;
 }
 
 .card-cont-center-text1format {
