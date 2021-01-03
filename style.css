@@ -1,4 +1,4 @@
-.main {
+.card {
     height: 900px;
     /* background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed; */
     /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg); */
@@ -8,15 +8,14 @@
     color: #9E9E9E;
 }
 
-.main-wrapper {
+.card-container {
     display: grid;
     grid-template-columns: repeat(3, 430px);
     grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
     }
 
-
-.main-wrapper-box1 {
+.card-container-barbarian {
     grid-column: 1;
     grid-row: 3/7;
     border-radius: 15px;
@@ -27,7 +26,7 @@
     grid-auto-columns: minmax(30px, auto);
 }
 
-.main-wrapper-box1-top {
+.cont-barbarian-top {
     position: relative;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -36,20 +35,20 @@
     background: linear-gradient(to right, #185a9d, #43cea2); 
 }
 
-.box1-img {
+.cont-barbarian-top-img {
     position: absolute;
     top: -100px;
     width: 400px;
 }
 
-.main-wrapper-box1-center {
+.cont-barbarian-center {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.text-level {
+.cont-barbarian-center-text1 {
     margin: 0px;
     text-transform: uppercase;
     font-size: 12px;
@@ -57,7 +56,7 @@
     color: rgb(237,159,66);
 }
 
-.text-barbarian {
+.cont-barbarian-center-text2 {
     margin: 0px;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -66,12 +65,13 @@
     color: black;
 }
 
-.text-description {
+.cont-barbarian-center-text3 {
     margin: 0px;
     padding: 15px;
     text-align: center;
 }
-.main-wrapper-box1-bottom {
+
+.cont-barbarian-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,38 +82,38 @@
     border-bottom-right-radius: 15px;
 }
 
-.box1 {
+.cont-barbarian-bottom-left {
     flex:1;
     text-align: center;
     padding-left: 3%;
 }
 
-.box-text-h4 {
+.bottom-text1 {
     color: rgb(254,250,244);
     font-size: 23px;
     font-weight: 350;
     margin: 0px;
 }
 
-.box-text-h5 {
+.bottom-text2 {
     color: rgb(254,250,244);
     font-size: 12px;
     margin: 0px;
     padding-top: 5px;
 }
 
-.box2 {
+.cont-barbarian-bottom-center {
     flex: 1;
     text-align: center;
 }
 
-.box3 {
+.cont-barbarian-bottom-right {
     flex: 2;
     display: flex;
     align-items: center;
 }
 
-.button-format {
+.bottom-button {
     height: 52px;
     width: 190px;
     background-color: white;
@@ -125,7 +125,7 @@
     color: black;
 }
 
-.main-wrapper-box2 {
+.card-container- {
     grid-column: 2;
     grid-row: 2/6;
     background-color: lavender;
@@ -133,7 +133,7 @@
    /* box-shadow: 5px 8px rgba(0,0,0,0.5); */
 }
 
-.main-wrapper-box3 {
+.card-container- {
     grid-column: 3;
     grid-row: 3/7;
     background-color: lightpink;
